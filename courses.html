@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *Must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>ActiveRoad &amp; | Courses</title>
+
+       <!-- Favicon -->
+       <link rel="icon" href="img/core-img/logo.svg">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+      
+       <!-- ***** Top Search Area Start ***** -->
+       <div class="top-search-area">
+        <!-- Search Modal -->
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close Button -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Top Search Area End ***** -->
+
+       <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Navbar Area -->
+        <div class="clever-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="cleverNav">
+                    <!-- Logo -->
+                    <a class="nav-brand" ><img src="img/core-img/logo.svg" alt="">ActiveRoad</a>
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Courses</a>
+                                    <ul class="dropdown">
+                                    
+                                        <li><a href="courses.html">Humanity</a></li>
+                                        <li><a href="courses.html">Science</a></li>
+                                        <li><a href="courses.html">IT</a></li>
+                                        <li><a href="courses.html">Business</a></li>
+                                        <li><a href="courses.html">Languages</a></li>
+                            
+                                    </ul>
+                                </li>
+                                <li><a href="#">Services</a>
+                                    <ul class="dropdown">
+                                        <li><a href="instructors.html">Tutors</a></li>
+                                        <li><a href="#">Coaching</a></li>
+                                        <li><a href="blog-details.html">Elearnig</a></li>
+                                        <li><a href="#">Scholarship</a></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li><a href="#">Resources</a>
+                                    <ul class="dropdown">
+                                        <li><a href="regular-page.html">Guideline</a></li>
+                                        <li><a href="#">Contracts</a></li>
+                                        <li><a href="#">Terms&Condition</a></li>
+                                        <li><a href="#">Privancy Policy</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><a href="#">Shop</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Product</a></li>
+                                        <li><a href="#">Cart</a></li>
+                                        <li><a href="#">Checkout</a></li>
+                                      
+                                    </ul>
+                                </li>
+                              
+                                <li><a href="contact.html">Contact   </a></li>
+         
+                            </ul>
+                               <!-- Register / Login -->
+                               <ul class="register-login-area">
+                                <a href="loginsignup.html" class="btn active">Login|Signup</a>
+                               </ul>
+
+                                    <!-- Search Icon -->
+                             <ul class="search-icon" data-toggle="modal" data-target="#searchModal">
+                                <i class="fa fa-search"></i>
+                             </ul>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area">
+        <!-- Breadcumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Courses</a></li>
+            </ol>
+        </nav>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+
+
+    <!-- ##### Popular Course Area Start ##### -->
+    	<!-- Popular Courses -->
+        <div class="courses">
+            <div class="section_background parallax-window" data-parallax="scroll" data-image-src="img/main-img/courses_background.jpg" data-speed="0.8"></div>
+       
+            <div class="container">
+                <div class="courses_search_container">
+                    <form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
+                        <input type="search" class="courses_search_input" placeholder="Search Courses" required="required">
+                        <select id="courses_search_select" class="courses_search_select courses_search_input">
+                            <option>All Categories</option>
+                            <option>Humanity</option>
+                            <option>Business</option>
+                            <option>IT</option>
+                            <option>Science</option>
+                        </select>
+                        <button action="submit" class="courses_search_button ml-auto">search now</button>
+                    </form>
+                </div>
+                <div class="row courses_row">
+                    
+                    <!-- Course -->
+                    <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_1.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Software Training</a></h3>
+                                <div class="course_teacher">Mr. Habimana Abdulkalim</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, Software design and software managment.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">$130</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Course -->
+                    <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_2.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Developing Mobile Apps</a></h3>
+                                <div class="course_teacher">Ms. Uwineza Sandrine</div>
+                                <div class="course_text">
+                                    <p>Start this free online course,Mobile app development Introduction.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">Free</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Course -->
+                    <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_3.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Principles of Accounting</a></h3>
+                                <div class="course_teacher">Mr. Ukizuru Mustapha</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, Introduction of accouning and Principles of Accounting.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">$120</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="row courses_row">
+                    
+                    <!-- Course -->
+                    <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_1.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Cost Accounting</a></h3>
+                                <div class="course_teacher">Mr. Habimana Abdulkalim</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, cost accouning and cost Management.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">$90</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Course -->
+                    <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_2.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Web development</a></h3>
+                                <div class="course_teacher">Ms. Uwineza Sandrine</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, Web development and Web design.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">Free</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+
+                     <!-- Course -->
+                     <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_3.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Principles of Accounting</a></h3>
+                                <div class="course_teacher">Mr. Ukizuru Mustapha</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, Introduction of accouning and Principles of Accounting.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">$120</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Course -->
+                     <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_3.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Principles of Accounting</a></h3>
+                                <div class="course_teacher">Mr. Ukizuru Mustapha</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, Introduction of accouning and Principles of Accounting.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">$120</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Course -->
+                     <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_3.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Principles of Accounting</a></h3>
+                                <div class="course_teacher">Mr. Ukizuru Mustapha</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, Introduction of accouning and Principles of Accounting.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto">$120</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course -->
+                    <div class="col-lg-4 course_col">
+                        <div class="course">
+                            <div class="course_image"><img src="img/main-img/course_3.jpg" alt=""></div>
+                            <div class="course_body">
+                                <h3 class="course_title"><a href="courses-details.html">Starting a Startup</a></h3>
+                                <div class="course_teacher">Mr. Ukizuru Mustapha</div>
+                                <div class="course_text">
+                                    <p>Start this free online course, Business startup and implementations.</p>
+                                </div>
+                            </div>
+                            <div class="course_footer">
+                                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="course_info">
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <span>20 Student</span>
+                                    </div>
+                                    <div class="course_info">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span>5 Ratings</span>
+                                    </div>
+                                    <div class="course_price ml-auto"><span>$320</span>$180</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="pagination_list">
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- ##### Popular Course Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+  <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Active Road</h3>
+                        </div>
+                        <p> 
+                            Working to bring significant changes in online-based learning by doing extensive research for course curriculum preparation, student engagements, and looking forward to the flexible education!
+                        </p>   
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Resources</a></li>
+							<li><a href="#">Contact us</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@activroad.com</a></li>
+                            <li><a href="#">www.activeroad.com</a></li>
+                            <li>PO Box 204 KG 81 Street  Nyarugenge Kigali Rwanda</li>
+                            <li>+250 788 408 139</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy;<script>document.write(new Date().getFullYear());</script> | <a href="index.html"> ActiveRoad</a> Design By : <a href="https://activeroad.rw/">Activeroad online ltd</a></p>
+               
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script>
+initHeaderSearch();
+var divider = fragments.indexOf(find(fragments, function (frag) {
+    return frag.search(/,|\s/) !== -1;
+  }));
+	function initHeaderSearch()
+	{
+		if($('.search_button').length)
+		{
+			$('.search_button').on('click', function()
+			{
+				if($('.header_search_container').length)
+				{
+					$('.header_search_container').toggleClass('active');
+				}
+			});
+		}
+	}
+
+
+    </script>
+</body>
+
+</html>
